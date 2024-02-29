@@ -1,0 +1,28 @@
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px;
+}
+
+.vowels{
+    
+    font-size: 2rem;
+}
+
+.myInput{
+    font-size: 2rem;
+    margin-left: 100px;
+    width: 600px;
+    height: 3rem;
+}
+
+.btnCount{
+    display: block;
+    margin-top: 10px;
+    font-size: 2rem;
+    margin-left: 100px;
+}
+
+.msg{
+    margin-left: 100px;
+}
