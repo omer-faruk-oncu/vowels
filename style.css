@@ -1,28 +1,69 @@
+
+body{
+    background-color: rgba(95, 158, 160, 0.813);
+}
+
 h1{
     font-size: 3rem;
     text-align: center;
     margin: 50px;
+    color: darkmagenta;
 }
 
-.vowels{
-    
-    font-size: 2rem;
+.vowels{    
+    font-size: 2rem;    
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .myInput{
-    font-size: 2rem;
-    margin-left: 100px;
+    font-size: 2rem;    
     width: 600px;
     height: 3rem;
+    background-color: rgb(196, 244, 244);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding:10px ;
+    
 }
 
-.btnCount{
-    display: block;
+.btnCount{    
+    padding: 10px;
+    border-radius: 10px;
     margin-top: 10px;
-    font-size: 2rem;
-    margin-left: 100px;
+    font-size: 2rem;    
+    background-color: rgb(189, 66, 189);
+    color: white;
+    
+}
+.btnCount:hover{
+    cursor: pointer;
+    background-color: rgba(189, 66, 189, 0.602);
 }
 
-.msg{
-    margin-left: 100px;
+@media (max-width: 820px) {
+    h1{
+        font-size: 2.2rem;
+        text-align: center;   
+    }
+    
+    .vowels{    
+        font-size: 2rem;    
+        width: 300px;
+    }
+    
+    .myInput{
+        font-size: 1.5rem;    
+        width: 300px;
+        height: 2rem;       
+    }
+    
+    .btnCount{    
+        padding: 5px;
+        font-size: 1.5rem;     
+    }
 }
